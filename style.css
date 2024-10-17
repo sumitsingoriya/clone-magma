@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+@font-face {
+    font-family: a;
+    src: url("./a.woff2");
+}
+@font-face {
+    font-family: b;
+    src: url("./b.woff2");
+}
+@font-face {
+    font-family: c;
+    src: url("./c.woff2");
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    position: relative;   
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #0b48ed;
+    color: white;
+    font-family: a;
+    font-size: 15px;
+    
+}
+#text1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    position: absolute;
+    bottom: 15vh;
+    left: 15vh;
+}
+#text2{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+#text1>h1{
+    font-size: 13vh;
+    color: white;
+    font-family: a;
+    font-weight: 350;
+    line-height: 1;
+}
+#text2>p{
+    color: #fff;
+    font-family: a;
+}
+#text2>button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #0b48ed;
+    font-family: b;
+    font-size: 15px;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b48ed;
+    position: relative;
+}
+#text3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    padding-left: 10vw;
+    color: #fff;
+}
+#text3>h1{
+font-family: c;
+text-transform: uppercase;
+font-size: 2vh;
+letter-spacing: 1px;
+}
+#text3>h2{
+font-family: c;
+font-size: 8vh;
+color: #3B63D8;
+width: 70vw;
+
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b48ed;
+    position: relative;
+}
