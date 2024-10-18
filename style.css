@@ -126,4 +126,137 @@ width: 70vw;
     width: 100vw;
     background-color: #0b48ed;
     position: relative;
+
 }
+#page3>#home{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b48ed;
+    position: relative;
+}
+#home2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    padding-left: 10vw;
+    color: #fff;
+}
+
+#home2>h1{
+    font-family: c;
+    text-transform: uppercase;
+    font-size: 2vh;
+    letter-spacing: 1px;
+    }
+
+    #home2>h2{
+    font-family: c;
+    font-size: 8vh;
+    color: #3B63D8;
+    width: 70vw;
+    }
+
+    #page5{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0b48ed;
+        position: relative;
+    
+    }
+    #page5>#home{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+    }
+    #page6{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0b48ed;
+        position: relative;
+    }
+    #home4{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+        padding-left: 10vw;
+        color: #fff;
+    }
+    
+    #home4>h1{
+        font-family: c;
+        text-transform: uppercase;
+        font-size: 2vh;
+        letter-spacing: 1px;
+        }
+    
+        #home4>h2{
+        font-family: c;
+        font-size: 8vh;
+        color: #3B63D8;
+        width: 70vw;
+        }
+        #page7{
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        #page7>video{
+            height: 100%;
+            width: 100%;
+            
+           
+        }
+        #page7>h4{
+            z-index: 1;
+            position: absolute;
+            top:50%;
+            left:30%;
+            font-size: 65px;
+            font-family: c;
+            padding: 30px;
+            color: #fff;
+        }
+        #page7>button{
+            z-index: 1;
+            position: absolute;
+            padding: 10px 30px;
+            border-radius: 50px;
+            border: none;
+            background-color: white;
+            color: #0b48ed;
+            font-family: b;
+            font-size: 15px;
+            top: 70%;
+            left: 45%;
+            
+        }
+        #page8{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            position: relative;
+        }
+        #page8>img{
+            z-index: 1;
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            left: 30%;
+            
+        }
